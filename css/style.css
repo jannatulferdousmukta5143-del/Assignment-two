@@ -1,0 +1,430 @@
+/* navbar degin */
+*{
+    margin: 0px;
+}
+
+body{
+    max-width: 1600PX;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+    
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 92px;
+    align-items: center;
+    background-color: #1A0B2E;
+    
+}
+/* navbar er menubar */
+
+.menu{
+    display: flex;
+    gap: 2rem;
+    
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar er heading */
+.navbar h1{
+    color: white;
+}
+
+.wave{
+    background: linear-gradient(to bottom left,#9100F8,#FB09B4,#F7E93F);
+     -webkit-text-fill-color: transparent; 
+     background-clip: text;
+     
+}
+
+/* navbar er button */
+.nav-btn button{
+    width: 135px;
+    height: 44px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom left,#9100F8,#FB09B4,#F7E93F);
+    color: white;
+    transition: 2s;
+}
+ /* hero section */
+ .hero-img{
+    height: 760px;
+    border-top: 1px solid#360b53;
+    background-image: url(../assets/microphone.png),url(../assets/hero-circle.png),url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center 190px,center 100px,center center;
+    transition: 1s;
+    
+ }
+  .hero-content h6{
+    border: 1px solid #00FF88;
+    padding: 0px;
+  }
+  .new{
+    border: 1px solid #00FF88;
+    padding: 0px;
+
+  }
+ .hero-content{
+   width: 550px;
+   height: 168px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     margin: 491px auto 101px auto;
+   color: white; 
+   transition: 1s;   
+}
+.hero-content h1{
+    font-size: 60px;
+    margin-bottom:8px ;
+
+}
+.hero-content p{
+    margin-bottom:24px ;
+}
+.hero-content button{
+     width: 201px;
+    height: 44px;
+    border-radius: 18px;
+    background: linear-gradient(to bottom left,#9100F8,#FB09B4,#F7E93F);
+    color: white;
+    padding: 12px 20px 12px 48px;
+}
+#Subscribe{
+    width: 147px;
+    height: 44px;
+    background: transparent;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+
+}
+/* hero containar */
+.hero-containar{
+   height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   color: white;
+   background-color: #1A0B2E;    
+
+}
+.hero-containar h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.hero-containar p{
+    margin-bottom: 16px;
+}
+#paragraph{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+/* card section */
+.card-section{
+    background-color: #1A0B2E;
+    color: #00FF88; 
+    height: 270px;
+     
+}
+.border{
+    border-top: 1px solid rgb(43, 25, 68);
+    padding-top: 80px;
+    margin: 0px 200px;
+
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: auto;
+    transition: 2s;
+}
+.box{
+    text-align: center;
+    padding: 0px 20px;
+    
+}
+.box h1{
+  font-size:48px;
+    margin-bottom: 16px;
+}
+.box p{
+    color: white;
+   
+    padding:1px 1px;
+}
+/* grid section */
+.grid-section{
+    background-color: #230E3D;
+    height: 950px;
+    padding-top: 120px;
+
+}
+#header{
+    font-size:48px ;
+    margin-bottom:40px ;
+    color: white;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,225px);
+    grid-gap:30px ;
+    width: 1200px;
+    height: 783px;
+    margin: auto;
+
+}
+.one{
+    grid-row: 2 span;
+    padding: 150px 40px;
+}
+.two{
+    grid-column: 2 span;
+    padding: 40px;
+}
+.three{
+    grid-column: 2 span;
+    padding: 40px;
+}
+.four{
+    grid-column: 2 span;
+    padding: 40px;  
+}
+.five{
+    padding: 40px;
+}
+
+.grid .grid-box{
+    background-color: #351165;
+    border-radius: 30px;
+    color: white;
+    transition: 1s;
+}
+.grid .grid-box h4{
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.grid-box p{
+   padding-left: 0px;
+}
+/* featured episodes section */
+.youtub-section{
+    background-color:#1A0B2E ;
+    padding-top: 120px;
+}
+.youtub-section h1{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    transition: 1s;  
+}
+
+.Featured{
+    margin: auto;
+    width: 1200px;
+    height: 440px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+    transition: 1s;  
+}
+.youtub-video iframe{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.youtub-video{
+    height: 440px;
+    border-radius: 20px;
+    background-color: #250D44;
+    transition: 1s;
+}
+.youtub-video h4,p{
+    color: white;
+    padding-left: 24px;
+}
+.youtub-video h4{
+    padding-top: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+.youtub-video p{
+    margin-bottom: 12px;
+}
+
+.time{
+    display: flex;
+    padding-left: 24px;
+    gap: none;  
+}
+.time p{
+    color: #00FF88;
+}
+/* meet the host section */
+.meet-section{
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+}
+.meet-section h1{
+    color: white;
+    padding-top: 340px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight:bold ;
+    text-align: center;
+}
+.host{
+    display: flex;
+    background-color:#250D44 ;
+    margin: auto;
+    width: 1125px;
+    height: 200px;
+    padding: 40px;
+    gap: 24px;
+    border-radius: 18px;
+    transition: 1s;
+}
+.host-content h4{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+.host-content p{
+    margin-bottom: 16px;
+}
+.alex{
+    display: flex;
+    margin-left: 24px;
+    gap: 8px;
+    transition: 1s; 
+}
+.alex .link{
+    border: 1px solid #533C72;
+    border-radius:20px ;
+    padding: 8px;
+    transition: 1s;
+}
+/* footer section */
+.footer{
+    height:412px ;
+    width: 1600px;
+    background-image: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    text-align: center; 
+    transition: 2s; 
+}
+.footer h1{
+    color: white;
+    padding-top: 100px;
+    padding-bottom:32px ;
+    font-size: 77px;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom:32px ;
+    
+}
+.footer-icon{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 16px;
+    gap: 10px;
+
+    
+}
+
+
+
+
+
+
+    
+
+   
+   
+
+   
+   
+
+ 
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* navbar resposive */
+   .navbar{
+
+        justify-content: space-between;
+        height: 60px;
+        background-image: url(../assets/hamburger-menu.png);
+        background-repeat: no-repeat;
+        background-position: 500px ,right ;  
+    }
+    .navbar h1{
+        padding-left: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    
+    /* hero responsive */
+  .hero-containar{
+    padding: 20px;
+  }
+  /* card responsive */
+  .card-section{
+    height: 800px;
+    padding-left: 20px;
+  }
+  .card{
+    flex-wrap: wrap;
+  }
+  /* grid responsive */
+  
+  
+   
+
+    
+}
+  
+   
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
